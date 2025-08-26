@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module accessmodifiers {
+	requires logicalprograms;
+}
