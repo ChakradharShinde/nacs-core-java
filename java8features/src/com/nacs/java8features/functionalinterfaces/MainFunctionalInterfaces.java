@@ -1,6 +1,6 @@
 package com.nacs.java8features.functionalinterfaces;
 
-import java.util.function.Function;
+import java.util.function.BinaryOperator;
 
 public class MainFunctionalInterfaces {
 	public static void main(String[] args) {
@@ -76,11 +76,10 @@ public class MainFunctionalInterfaces {
 //		} while (choice != 0);
 //
 //		scanner.close();
-		
-		
+
 //		BinaryOperator<Integer> addition = (number1, number2)-> number1+number2;
 //		System.out.println(addition.apply(10, 20));
-		
+
 //		Consumer<Integer> doubleNumber = number -> System.out.println(number*2);
 //		
 //		Consumer<Integer> squareNumber = number -> System.out.println(number*number);
@@ -89,7 +88,7 @@ public class MainFunctionalInterfaces {
 //		
 //		doubleAndSquare.accept(4);
 //		
-		
+
 //		Function<Integer, Integer> doubleNumber = number -> number*2;
 //		Function<Integer, Integer> squareNumber = number -> number*number;
 //		Function<Integer, Integer> squareAndDouble = doubleNumber.andThen(squareNumber);
@@ -98,16 +97,7 @@ public class MainFunctionalInterfaces {
 //		System.out.println(squareAndDouble1.apply(4));
 //		
 //		Function<Object, Object> obj=Function.identity();
-//		System.out.println(obj.apply("Shraddha"));
-
+//		System.out.println(obj.apply(10));
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
