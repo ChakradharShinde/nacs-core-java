@@ -2,7 +2,7 @@ package com.nacs.java8features.streamapi.entities;
 
 import java.util.Objects;
 
-public class Student {
+public class Student{
 	private int rollNo;
 	private String name;
 
@@ -45,6 +45,7 @@ public class Student {
 	public int hashCode() {
 		return Objects.hash(rollNo, name);
 	}
+	
 
 	@Override
 	public String toString() {

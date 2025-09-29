@@ -1,6 +1,7 @@
 package com.nacs.java8features.streamapi;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class StreamApiDemo {
 	public static void main(String[] args) {
@@ -50,6 +51,41 @@ public class StreamApiDemo {
 //		.map(String::toUpperCase)
 //		.sorted()
 //		.forEach(System.out::println);
+		
+//		try(
+//		IntStream intStream = Arrays.stream(new int[] {7,3,1,5,9,2});
+//		){
+//			int[] result=intStream.map(n->n+1).toArray();
+//			System.out.println(Arrays.toString(result));
+//			
+//		}
+		
+//		toArray method for String object
+//		String[] names= {"Ansh", "Niraj", "Sai", "Tejas", "Soham", "Rohit"};
+//		
+//		try(Stream<String> nameStream=Arrays.stream(names);){
+//			String[] result=nameStream
+//			.filter(s->s.charAt(1)=='o')
+////			.toArray(l->new String[l]);
+//			.toArray(String[]::new);
+//			System.out.println(Arrays.toString(result));
+//		}
+		
+		
+//		Student[] studentArray = {
+//				new Student(1,"ABC"),
+//				new Student(2,"ABCD"),
+//				new Student(0,"A")
+//		};
+//		
+//		try(Stream<Student> studentStream=Arrays.stream(studentArray);){
+//			Optional<Student> student=studentStream
+//			.max((s1,s2)->s1.getName().compareTo(s2.getName()));
+//			
+//			if(student.isPresent())
+//				System.out.println(student.get());
+//		}
+		
 		
 		
 
